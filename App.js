@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View} from 'react-native';
 import Weather from './weather.js'
+import Calendar from './calendar.js'
 
 export default class App extends React.Component {
   render() {
@@ -10,6 +11,7 @@ export default class App extends React.Component {
         <Text>Hello ipad!</Text>
         <Weather/>
         <Calendar/>
+        <Text> Hi Tucker!</Text>
       </View>
     );
   }
